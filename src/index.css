@@ -1,4 +1,6 @@
-body {
+html, body {
+  width: 100%;
+  height: 100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +12,26 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+body ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+body ul li{
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+span{
+  text-align: left;
+}
+body p{
+  margin-bottom: 0;
+}
+.deleteIcon{
+  color: red;
+  cursor: pointer;
 }
